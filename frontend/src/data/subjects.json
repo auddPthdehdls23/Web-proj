@@ -1,0 +1,307 @@
+[
+  {
+    "code": "CS111",
+    "name": "컴퓨터공학개론",
+    "required": true,
+    "year": 1,
+    "professors": ["전혜경"]
+  },
+  {
+    "code": "CS112",
+    "name": "프로그래밍입문",
+    "required": true,
+    "year": 1,
+    "professors": ["채진석, 최대진"]
+  },
+  {
+    "code": "CS113",
+    "name": "이산수학",
+    "required": true,
+    "year": 1,
+    "professors": ["이승수"]
+  },
+  {
+    "code": "CS121",
+    "name": "C언어",
+    "required": true,
+    "year": 1,
+    "professors": ["안재균, 백형부"]
+  },
+  {
+    "code": "CS122",
+    "name": "데이터사이언스입문",
+    "required": true,
+    "year": 1,
+    "professors": ["구민석"]
+  },
+  {
+    "code": "CS123",
+    "name": "확률및통계",
+    "required": true,
+    "year": 1,
+    "professors": ["김현정"]
+  },
+  {
+    "code": "CS211",
+    "name": "자료구조",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS121"],
+    "professors": ["안재균, 이승수"]
+  },
+  {
+    "code": "CS212",
+    "name": "Java언어",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS121"],
+    "professors": ["허혜선"]
+  },
+  {
+    "code": "CS213",
+    "name": "디지털공학",
+    "required": true,
+    "year": 1,
+    "professors": ["김우일"]
+  },
+  {
+    "code": "CS214",
+    "name": "시뮬레이션기초및실습",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS113"],
+    "professors": ["김지범"]
+  },
+  {
+    "code": "CS215",
+    "name": "데이터프로그래밍",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS112, CS122, CS123"],
+    "professors": ["이장호, 성미영"]
+  },
+  {
+    "code": "CS216",
+    "name": "선형대수학",
+    "required": true,
+    "year": 1,
+    "professors": ["김현정"]
+  },
+  {
+    "code": "CS221",
+    "name": "컴퓨터구조",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS213"],
+    "professors": ["김우일"]
+  },
+  {
+    "code": "CS222",
+    "name": "C++언어",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS121, CS212"],
+    "professors": ["전혜경, 허혜선"]
+  },
+  {
+    "code": "CS223",
+    "name": "모바일소프트웨어",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS212"],
+    "professors": ["홍윤식"]
+  },
+  {
+    "code": "CS224",
+    "name": "윈도우즈프로그래밍",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS121"],
+    "professors": ["허혜선"]
+  },
+  {
+    "code": "CS225",
+    "name": "시스템프로그래밍",
+    "required": true,
+    "year": 1,
+    "professors": ["박문주"]
+  },
+  {
+    "code": "CS226",
+    "name": "LINUX프로그래밍",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS121, CS211"],
+    "professors": ["박기석"]
+  },
+  {
+    "code": "CS227",
+    "name": "수치해석",
+    "required": true,
+    "year": 1,
+    "prerequisites": ["CS214, CS216"],
+    "professors": ["김지범"]
+  },
+  {
+    "code": "CS311",
+    "name": "운영체제",
+    "required": true,
+    "year": 3,
+    "semester": 1,
+    "prerequisites": ["CS221"],
+    "professors": ["박문주"]
+  },
+  {
+    "code": "CS312",
+    "name": "데이터베이스",
+    "required": true,
+    "year": 3,
+    "semester": 1,
+    "prerequisites": ["CS113", "CS211"],
+    "professors": ["신유현"]
+  },
+  {
+    "code": "CS313",
+    "name": "데이터통신",
+    "required": true,
+    "year": 3,
+    "semester": 1,
+    "prerequisites": ["CS213"],
+    "professors": ["최승식"]
+  },
+  {
+    "code": "CS314",
+    "name": "웹프로그래밍",
+    "required": true,
+    "year": 3,
+    "semester": 1,
+    "prerequisites": ["CS212"],
+    "professors": ["박기석"]
+  },
+  {
+    "code": "CS315",
+    "name": "기계학습",
+    "required": true,
+    "year": 3,
+    "semester": 1,
+    "prerequisites": ["CS113", "CS123", "CS216", "CS122"],
+    "professors": ["김우일"]
+  },
+  {
+    "code": "CS321",
+    "name": "알고리즘",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS121", "CS211"],
+    "professors": ["채진석, 이승수"]
+  },
+  {
+    "code": "CS322",
+    "name": "컴퓨터네트워크",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS313"],
+    "professors": ["최승식"]
+  },
+  {
+    "code": "CS323",
+    "name": "컴퓨터그래픽스",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS121", "CS216"],
+    "professors": ["김지범"]
+  },
+  {
+    "code": "CS324",
+    "name": "자연어처리",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS216"],
+    "professors": ["신유현"]
+  },
+  {
+    "code": "CS325",
+    "name": "시스템보안과해킹",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS221", "CS311"],
+    "professors": ["이승수"]
+  },
+  {
+    "code": "CS411",
+    "name": "게임프로그래밍",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS222"],
+    "professors": ["박종승"]
+  },
+  {
+    "code": "CS412",
+    "name": "컴파일러설계",
+    "required": true,
+    "year": 3,
+    "semester": 2,
+    "prerequisites": ["CS321"],
+    "professors": ["홍윤식"]
+  },
+  {
+    "code": "CS413",
+    "name": "인공지능과딥러닝",
+    "required": true,
+    "year": 4,
+    "semester": 1,
+    "prerequisites": ["CS113","CS123", "CS216", "CS122", "CS317"],
+    "professors": ["구민석"]
+  },
+  {
+    "code": "CS414",
+    "name": "클라우드컴퓨팅",
+    "required": true,
+    "year": 4,
+    "semester": 1,
+    "prerequisites": ["CS221", "CS311", "CS322"],
+    "professors": ["민병준"]
+  },
+  {
+    "code": "CS421",
+    "name": "빅데이터입문",
+    "required": true,
+    "year": 4,
+    "semester": 2,
+    "prerequisites": ["CS211", "CS312", "CS324"],
+    "professors": ["최대진"]
+  },
+  {
+    "code": "CS422",
+    "name": "컴퓨터비젼",
+    "required": true,
+    "year": 4,
+    "semester": 2,
+    "prerequisites": ["CS315", "CS123", "CS216", "CS122", "CS315"],
+    "professors": ["이장호"]
+  },
+  {
+    "code": "CS423",
+    "name": "정보보호론",
+    "required": true,
+    "year": 4,
+    "semester": 2,
+    "prerequisites": ["CS311", "CS322", "CS325", "CS414"],
+    "professors": ["민병준"]
+  },
+  {
+    "code": "CS424",
+    "name": "음성인식입문",
+    "required": true,
+    "year": 4,
+    "semester": 2,
+    "prerequisites": ["CS123", "CS122", "CS317"],
+    "professors": ["김우일"]
+  }
+]
