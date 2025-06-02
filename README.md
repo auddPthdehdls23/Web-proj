@@ -1,4 +1,6 @@
 # React + Vite
+## 과제를 이제서야 제출해서 죄송합니다. 면목없습니다.
+## F를 면할 수 있게 해주셔서 감사합니다.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
